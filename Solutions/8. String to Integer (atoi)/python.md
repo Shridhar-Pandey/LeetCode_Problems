@@ -1,4 +1,4 @@
-''' py
+``` py
 
 class Solution:
     def myAtoi(self, s: str) -> int:
@@ -16,4 +16,4 @@ class Solution:
         res *= sign
         return max(-2**31, min(res, 2**31 - 1))
 
-'''
+```
